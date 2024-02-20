@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the content takes at least the full height of the viewport */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand img {
+    width: 50px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+}
+
+.content {
+    flex: 1; /* Allow content to grow to fill remaining space */
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 4px solid #333;
+    width: 150px;
+    height: 150px;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.linkedin-btn:hover {
+    transform: scale(1.1);
+}
+
+.details, .work-experience {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.social-icons {
+    margin-top: auto; /* Push the social icons to the bottom */
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
